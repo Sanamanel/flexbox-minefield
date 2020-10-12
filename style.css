@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: auto;
+  font-family: "Press Start 2P", cursive;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  border: ridge 15px #d6d6d6;
+  background-color: lightgrey;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  display: flex;
+  border: 1px dashed;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  background-color: #cbcbcb;
+}
+.hiddendcell {
+  -webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1);
+  color: #cbcbcb;
+}
+.hiddendcell:hover {
+  -webkit-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 0);
+  box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1);
+  color: #cbcbcb;
+  opacity: 0.4;
+}
+.bleu {
+  color: #0e2fff;
+}
+.green {
+  color: #008f00;
+}
+.red {
+  color: #ff2900;
+}
+i:hover {
+  font-size: larger;
+}
