@@ -10,12 +10,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+.bordure {
+  border: 1px solid #363636;
+}
 .flexbox {
   display: flex;
   flex-wrap: wrap;
   width: 400px;
   height: 400px;
-  border: ridge 15px #d6d6d6;
+  border-top: ridge 15px #d6d6d6;
+  border-left: ridge 15px #d6d6d6;
+  border-bottom: ridge 15px #fdfefd;
+  border-right: ridge 15px white;
+
   background-color: lightgrey;
   justify-content: center;
   align-items: center;
