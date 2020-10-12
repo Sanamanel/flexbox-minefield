@@ -21,9 +21,8 @@ body {
   border-top: ridge 15px #d6d6d6;
   border-left: ridge 15px #d6d6d6;
   border-bottom: ridge 15px #fdfefd;
-  border-right: ridge 15px white;
+  border-right: solid 15px white;
 
-  background-color: lightgrey;
   justify-content: center;
   align-items: center;
 }
